@@ -1,0 +1,4 @@
+version 1.0.0
+data -p int,int!1024,2048
+work -m calculateColour
+result
