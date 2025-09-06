@@ -1,8 +1,8 @@
 package Mandelbrot.ClassFiles
 
-import dynamicFarm.records.EmitInterface
+import dynamicFarm.records.DataInterface
 
-class MandelbrotData implements  EmitInterface<MandelbrotData>{
+class MandelbrotData implements  DataInterface<MandelbrotData>{
 
   int []colour		  // array of colour values for this line
   double [][] line 	// array of [x,y] values for this line

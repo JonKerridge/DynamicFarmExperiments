@@ -1,8 +1,8 @@
 package Mandelbrot.ClassFiles
 
-import dynamicFarm.records.CollectInterface
+import dynamicFarm.records.ResultInterface
 
-class MandelbrotCollect implements CollectInterface <MandelbrotData> {
+class MandelbrotCollect implements ResultInterface <MandelbrotData> {
 
   int blackCount, whiteCount,points
   long totalIterations

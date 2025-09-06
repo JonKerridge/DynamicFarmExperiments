@@ -1,12 +1,12 @@
 package Euclidean.Locality
 
-import dynamicFarm.records.CollectInterface
+import dynamicFarm.records.ResultInterface
 
 /**
  * The object used by Collector processes to collect rhe results of the processing
  * by the processing network
  */
-class AreaPoICollect implements CollectInterface<AreaData> {
+class AreaPoICollect implements ResultInterface<AreaData> {
 
   List <AreaData> allAreas
   List <Location> accessedPoIs

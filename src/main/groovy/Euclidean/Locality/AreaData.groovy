@@ -1,9 +1,9 @@
 package Euclidean.Locality
 
-import dynamicFarm.records.EmitInterface
+import dynamicFarm.records.DataInterface
 import dynamicFarm.records.WorkDataInterface
 
-class AreaData implements EmitInterface<AreaData>{
+class AreaData implements DataInterface<AreaData>{
 
   Location areaLocation
   List <Location> nearPoIs
